@@ -15,8 +15,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -57,7 +55,7 @@ header {
 }
 
 section	{
-	background-color: red;
+	background-color: #eceef1;
 	width: 100vw;
 	height: 48.5vw;
 }
@@ -66,4 +64,45 @@ footer {
 	background: green;	
 	width: 100vw;
 	height: 11vw;
+}
+
+
+form {
+	margin: 0 auto;
+	display: block;
+	width: 25%;
+	height: 100%;
+	background-color: #fff;
+	padding: 0 2rem;
+}
+
+form h2,
+h5 {
+	font-weight: inherit;
+	text-align: center;
+}
+
+form h2:first-child {
+	padding-top: 1rem;	 
+}
+
+form h5 {
+	margin-bottom: 2rem;
+}
+
+fieldset label {
+	margin-bottom: 2rem;
+	display: block;
+}
+
+.submit {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+label input {
+	width: 90%;
+	border: 1px solid black;
+	border-radius: 6%;
 }
