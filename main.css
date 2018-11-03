@@ -16,6 +16,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
+	font: AvenirNext, Avenir, "Helvetica"
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -61,7 +62,7 @@ section	{
 }
 
 footer {
-	background: green;	
+	background: #fff;	
 	width: 100vw;
 	height: 11vw;
 }
@@ -74,6 +75,7 @@ form {
 	height: 100%;
 	background-color: #fff;
 	padding: 0 2rem;
+	border: 1px solid rgb(199,199,199);
 }
 
 form h2,
@@ -99,10 +101,40 @@ fieldset label {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+	background-color: #0077c5;
+	width: 100%;
+	border-radius: 3px;
+	color: white;
+	border: 1px solid #0077c5;
+	height: 3vw;
+	margin-bottom: 8%;
 }
 
 label input {
-	width: 90%;
-	border: 1px solid black;
-	border-radius: 6%;
+	width: 100%;
+	border: 1px solid rgb(193, 197, 200);
+	border-radius: 3px;
+	margin-top: 3%;
+	height: 2vw;
+}
+
+fieldset small {
+	position: absolute;
+	top: 70%;
+	font-size: x-small;
+}
+
+.span1 {
+	text-align: center;	
+	margin-bottom: 8%;
+	color: #bbb;
+	font-size: 12px;
+	display: block;
+	line-height: 170%;
+}
+
+form div {
+	background-color: #eceef1;
+	bottom: 0;
+	width: 100%;
 }
