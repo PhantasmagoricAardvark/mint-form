@@ -171,9 +171,17 @@ footer span {
 	margin-left: 0.3rem;
 }
 
+
+
 footer a {
 	color: inherit;
 }
+
+
+a:hover {
+	text-decoration: underline;
+}
+
 
 .img1 {
 	background-image: url(intuit.png);
@@ -193,7 +201,7 @@ footer a {
 
 .logo {
 	position: absolute;
-	margin: 6% auto;
+	margin: 4% auto;
 	width: inherit;
 }
 
@@ -204,6 +212,9 @@ footer a {
 ul {
 	list-style-type: none;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 li {
@@ -211,12 +222,13 @@ li {
 	width: 2vw;
 	display: inline-block;
 	text-align: center;
+	margin: 1.3vw 0.2vw;
 }
 
 .li2 {
 	background-image: url(mint-text.svg);
 	width: 2.8vw;
-	height: 1.1vw;
+	height: 1.05vw;
 }
 
 .li3 {
@@ -237,4 +249,30 @@ li {
 	background-image: url(1-text.svg);
 	width: 5.7vw;
 	height: 1.3vw
+}
+
+.header-text {
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.header-div {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 2rem;
+	margin-top: 0.7rem;
+}
+
+.header-button {
+	width: 8vw;
+	height: 2.6vw;
+	background-color: #0077c5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 1rem;
+	border: 1px solid black;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
 }
